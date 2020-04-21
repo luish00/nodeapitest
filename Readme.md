@@ -5,16 +5,13 @@ Estructura de un nuevo servicio:
 ```json
  {
     "method":"post | get",
-    // response status code 200
     "response":{
       "id": 9,
       "foo":"¡Ay papantla tus hijos vuelan!"
     },
-    // response status code 500
     "responseFail":{
       "foo":""
     },
-    // status code, default is 200
     "responseStatus": 200, 
     "url": "/api/login" 
   }
