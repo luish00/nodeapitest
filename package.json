@@ -1,0 +1,17 @@
+{
+  "name": "nodeapitest",
+  "version": "1.0.0",
+  "description": "Soy un api test",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cd ./node_modules/nodemon/bin/ && node nodemon ../../../app/api/server.js"
+  },
+  "author": "Hector",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.3"
+  }
+}

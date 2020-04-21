@@ -1,0 +1,19 @@
+[
+  {
+    "method":"post",
+    "request": {
+      "user":"",
+      "password":""
+    },
+    "response":{
+      "id": 7,
+      "email":"luishector.a2@gmail.com",
+      "fullName":"Luis Hector Arredondo Lugo"
+    },
+    "responseFail":{
+      "msj":"Usuario o contraseña incorrecta"
+    },
+    "responseStatus": 500,
+    "url": "/api/login"
+  }
+]
